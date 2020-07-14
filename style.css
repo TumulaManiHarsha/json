@@ -1,0 +1,52 @@
+*{
+    font-family: fantasy;
+}
+header{
+	background-color: #0066ff;
+	color: #fff;
+	padding: .3%;
+	box-shadow: 0px 8px 8px -8px #000;
+}
+.parent{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.child_one{
+	width: 25%;
+	padding: 1%;
+	text-align: center;
+	border: 1px solid #ddd;
+	box-shadow: 0px 8px 8px -8px #000;
+	margin: 1%;
+
+}
+.child_two{
+	width: 65%;
+	padding: 1%;
+	border: 1px solid #ddd;
+	box-shadow: 0px 8px 8px -8px #000;
+	margin: 1%;
+
+}
+.role{
+	color: #000;
+	font-style: italic;
+}
+/* Responsive ness*/
+@media only screen and (min-width: 320px) and (max-width: 480px){
+	.child_one,
+	.child_two{
+		width: 95%;
+		font-size: 25px;
+		background: #edf0f5;
+	}
+}
+@media only screen and (min-width: 481px) and (max-width: 767px){
+	.child_one,
+	.child_two{
+		width: 45%;
+		font-size: 18px;
+		background: #edf0f5;
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"profile":{
+		"basics":{
+			"name":"Harsha",
+			"role":"Student",
+			"email":"abc@email.com",
+			"mobile":"+91 9999999999",
+			"address":"Amaravathi,Guntur,AndhraPradesh"
+
+		},
+		"details":{
+
+		}
+	}
+}
